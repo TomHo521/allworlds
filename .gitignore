@@ -54,3 +54,9 @@ coverage/
 *.bak
 *.swp
 *.swo
+
+
+# Ignore vector_db files and directories
+vector_db/
+*.sqlite3
+*.bin

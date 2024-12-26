@@ -1,0 +1,56 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore directories
+bin/
+data/
+lib/
+
+# Virtual environment
+venv/
+
+# Logs and debug files
+logs/
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data directories
+data/input/
+data/processed/
+
+# Model weights or large files
+models/*.pt
+models/*.h5
+models/*.bin
+*.pkl
+
+# Cache directories
+.cache/
+*.pickle
+
+# IDE configuration files
+.idea/
+.vscode/
+
+# Ignore test results
+*.pytest_cache/
+htmlcov/
+coverage/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.swo
